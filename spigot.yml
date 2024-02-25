@@ -116,11 +116,11 @@ world-settings:
       other-multiplier: 0.0
     max-tnt-per-tick: 100
     mob-spawn-range: 8
-    view-distance: default
+    view-distance: 8
     merge-radius:
       item: 2.5
       exp: 3.0
-    simulation-distance: default
+    simulation-distance: 8
     item-despawn-rate: 6000
     nerf-spawner-mobs: false
     arrow-despawn-rate: 1200
