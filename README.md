@@ -41,3 +41,8 @@ pm2 restart mine-server
 ```
 pm2 list
 ```
+## Scripts
+Use cron to organize restarting
+> restart.sh - displays a message about the server restart in 60 seconds, saves the world and restarts.
+> server_load.sh - displays avgload information in the server chat.
+> start.sh - start the server manually.
