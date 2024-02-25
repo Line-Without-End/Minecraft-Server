@@ -13,7 +13,7 @@
 settings:
   timeout-time: 60
   restart-on-crash: true
-  restart-script: ./start.sh
+  restart-script: ./scripts/restart.sh
   sample-count: 12
   bungeecord: false
   debug: false
@@ -33,10 +33,10 @@ settings:
   moved-too-quickly-multiplier: 10.0
   save-user-cache-on-stop-only: false
 messages:
-  restart: Сервер рестартится.
-  whitelist: Ты не в вайтлисте, нахуй иди!
+  restart: restarting...
+  whitelist: You aren`t in whitelist.
   unknown-command: Unknown command. Type "/help" for help.
-  server-full: Полон сервер, не видишь?
+  server-full: Server is full. Bye!
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
 world-settings:

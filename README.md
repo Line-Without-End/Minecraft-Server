@@ -45,12 +45,13 @@ To reboot the server manually:
 ```
 pm2 restart mine-server
 ```
+## Autorestart.
+config the file ecosystem.config.js parameter - cron_restart
 ## PM2 app info
 ```
 pm2 list
 ```
 ## Scripts
-Use cron to organize restarting
 > restart.sh - displays a message about the server restart in 60 seconds, saves the world and restarts.
 > server_load.sh - displays avgload information in the server chat.
 
