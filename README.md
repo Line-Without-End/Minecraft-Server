@@ -11,6 +11,7 @@ sudo make install
 ## Fast startup.
 To start the server, you will need to copy the repository to a convenient folder.
 ```
+cd /root
 git clone https://github.com/Line-Without-End/Minecraft-Server.git
 cd Minecraft-Server
 ```
