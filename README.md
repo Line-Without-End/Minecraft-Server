@@ -24,6 +24,14 @@ After that start the server app
 pm2 start
 ```
 pm2 will start your server
+## Requires
+install mcrcon from https://github.com/Tiiffi/mcrcon
+```
+git clone https://github.com/Tiiffi/mcrcon.git
+cd mcrcon
+make
+sudo make install
+```
 ## Autostart.
 To organize autostart after shutting down the server, save the list of workers.
 ```
