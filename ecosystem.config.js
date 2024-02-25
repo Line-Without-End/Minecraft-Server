@@ -10,6 +10,12 @@ module.exports = {
     script: "/root/Minecraft-Server/scripts/restart.sh",
     autorestart : false,
     cron_restart: "30 */2 * * *"
+  },
+  {
+    name: "avgload-status",
+    script: "/root/Minecraft-Server/scripts/server_load.sh",
+    autorestart : false,
+    cron_restart: "*/15 * * * *"
   }
 ]
 }
