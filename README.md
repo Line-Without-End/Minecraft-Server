@@ -27,6 +27,7 @@ pm2 will start your server
 ## Connection to server
 Connect to game:
 > your__server_ip:55055
+
 Rcon port:
 > your__server_ip:55056
 ## Requires
