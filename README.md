@@ -1,5 +1,13 @@
 # Configured Minecraft Server
 
+## Requires
+install mcrcon from https://github.com/Tiiffi/mcrcon
+```
+git clone https://github.com/Tiiffi/mcrcon.git
+cd mcrcon
+make
+sudo make install
+```
 ## Fast startup.
 To start the server, you will need to copy the repository to a convenient folder.
 ```
@@ -30,14 +38,6 @@ Connect to game:
 
 Rcon port:
 > your__server_ip:55056
-## Requires
-install mcrcon from https://github.com/Tiiffi/mcrcon
-```
-git clone https://github.com/Tiiffi/mcrcon.git
-cd mcrcon
-make
-sudo make install
-```
 ## Autostart.
 To organize autostart after shutting down the server, save the list of workers.
 ```
