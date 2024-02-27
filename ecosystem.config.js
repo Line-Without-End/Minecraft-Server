@@ -7,7 +7,7 @@ module.exports = {
   },
   {
     name: "server-restarter",
-    script: "/root/Minecraft-Server/scripts/restart.sh",
+    script: "/root/Minecraft-Server/scripts/restarting.sh",
     autorestart : false,
     cron_restart: "30 */2 * * *"
   },

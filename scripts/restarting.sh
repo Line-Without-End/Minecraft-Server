@@ -1,5 +1,5 @@
 #!/bin/bash
-ARGS="-P 55056 -p examplepassword"
+ARGS="-P 55056 -p Kdkoefeop390f00330dw"
 
 for i in {6..1}; do 
     let TIME=$i*10
