@@ -30,7 +30,7 @@ sudo npm install pm2 -g
 ```
 After that start the server app
 ```
-pm2 start
+./start.sh
 ```
 pm2 will start your server
 ## Connection to server
@@ -46,7 +46,7 @@ pm2 save
 ```
 To turn off the configuration service:
 ```
-pm2 stop mine-server
+./stop.sh
 ```
 To reboot the server manually:
 ```
